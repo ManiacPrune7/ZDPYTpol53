@@ -1,2 +1,2 @@
-# ZDPYTpol63
-Materiały dla grupy ZDPYTpol63 z Software Development Academy
+# ZDPYTpol53
+Materiały dla grupy ZDPYTpol53 z Software Development Academy
