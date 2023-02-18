@@ -18,14 +18,21 @@ class Calculator:
         return self._a * self.__b
 
     def DivideTwoNumbers(self, NUMBER, NUMBER1):
-        print('In a moment the method called DivideTwoNumbers will divide two numbers: number/number1, the result will be printed on a terminal, so you will have a chance to see it live')
-        a = NUMBER/NUMBER1
-        print(f"a")
+        print(
+            "In a moment the method called DivideTwoNumbers will"
+            "divide two numbers: number/number1, the result will be"
+            "printed on a terminal, so you will have a chance to see"
+            "it live"
+        )
+        a = NUMBER / NUMBER1
+        print(f"{a}")
+
     def do_hard_COUNTING(self):
-        return 5* 3*  (-2 +( 4 + 5 /8)) / 4+6
+        return 5 * 3 * (-2 + (4 + 5 / 8)) / 4 + 6
 
     def sqrt(self, jakasliczba):
         import math
+
         return math.sqrt(jakasliczba)
 
     def printallnumbers(self, all):
@@ -33,20 +40,24 @@ class Calculator:
         ALL = []
 
         for ttt in range(all):
-            if ttt ==5:
-                if len(ALL)is 0:
+            if ttt == 5:
+                if len(ALL) is 0:
                     for tt in range(3):
                         print(ttt)
+
     def divideZERO(self, zero):
         try:
-            return zero/0
+            return zero / 0
         except Exception:
-            return zero/0
+            return zero / 0
+
+
 class XYZ:
     def __init__(self):
         self.CALCULATOR = Calculator()
 
-    def add_it(self,a,b,c,d,e,f,g):
-        return a+b+c +d+e+f+g
-    def add(self, x,y):
-        self.CALCULATOR.add( x,y )
+    def add_it(self, a, b, c, d, e, f, g):
+        return a + b + c + d + e + f + g
+
+    def add(self, x, y):
+        self.CALCULATOR.add(x, y)

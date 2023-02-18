@@ -8,7 +8,7 @@ class Profession:
     ARTIST = "artist"
     LAWYER = "lawyer"
     TEACHER = "teacher"
-    PROGRAMMER = "progammer"
+    PROGRAMMER = "programmer"
 
 
 class TaxPayer:

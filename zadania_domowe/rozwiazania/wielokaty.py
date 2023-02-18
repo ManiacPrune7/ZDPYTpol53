@@ -66,3 +66,10 @@ def licz_pola(wielokaty: list) -> list:
     for wielokat in wielokaty:
         pola.append(wielokat.oblicz_pole())
     return pola
+
+
+kwadrat = Kwadrat(5)
+prostokat = Prostokat(3, 4)
+wielokaty = [kwadrat, prostokat, Trojkat(4, 7)]
+pola = licz_pola(wielokaty)
+print(pola)
